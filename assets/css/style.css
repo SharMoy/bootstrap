@@ -12,7 +12,7 @@
 }
 
 .ui-menu-color-resume {
-    background-color: rgb(224, 154, 220);
+    background-color: rgb(217, 197, 223);
 }
 
 .ui-menu-color-contact {
@@ -45,7 +45,9 @@ h4 {
 }
 
 
-
+.inline-block {
+    display: inline-block;
+}
 
 
 
@@ -139,8 +141,11 @@ header {
 /*-- hover.css --*/
 
 .hvr-sweep-to-bottom {
+
     height: 120px;
+
 }
+    
 
 /*-- footer --*/
 
@@ -150,4 +155,46 @@ footer {
     min-height: 120px;
 }
 
+.cv-pdf i {
+    font-size: 18px;
+    color:#a95e45;
+    text-align: center;
+    padding-left: 5px;
+    transition:all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
+.cv-pdf i:hover {
+    color: white;
+}
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #a95e45;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+    
+.social-links li a i:hover {
+    background-color:#ec987c;
+}
+
+#footer-details {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
