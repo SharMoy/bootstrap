@@ -23,6 +23,28 @@
     background-color: rgb(33, 234, 130);
 }
 
+/*-- special paddings/margins/text --*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+
+}
+
+.general-sub {
+    font-family: Exo , sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
 
 
 
@@ -64,7 +86,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #fff;
+    color:white;
 }
 
 .list-inline-item:not(:last-child) {
@@ -120,6 +142,12 @@ header {
     height: 120px;
 }
 
+/*-- footer --*/
 
+footer {
+    background-color: #3c1c11;
+    color:antiquewhite;
+    min-height: 120px;
+}
 
 
